@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="top">
+    <div class="nav">
+        <h1 class="nav-title" onmouseover="mostrarPerfil()">Dojonary</h1>
+        <input type="text"name="Search" value=Search onclick="busqueda(this)" onmouseout="ocultarPerfil(this)">
+            <button class="btn" onclick="mensaje('Logout')">Login</button>
+    </div>
+</div>
+
+<div class="container">
+    <div>
+        <div class="col">
+            <h2>ninja</h2>
+            <h6>noun</h6>
+            <h5>Plural:ninjas</h5>
+            <h4 class="escrito"> A practioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></h4>
+            <button class="btn-2"  onclick="caja('Ninja was liked')">13 Likes</button>
+</div>
+            <div class="col1">
+                <h2>ninja</h2>
+                <h6>noun</h6>
+                <h5>Plural:ninjas</h5>
+                <h4 class="escrito-1"> A <span>programmer</span> who break down problems with <span>zen</span>-like focus</h4>
+                <button class="btn-3" onclick="agregarAlContador()">37 Likes</button>
+            </div>
+        </div> 
+
+
+<div class="colum3"> 
+    <h2>Dojonary is definied by YOU</h2>
+    <button class="btn-4" onclick="removerButton(this)">Add Definition</button>
+</div>
+</div>
+    
+
+<script src="./index.js"></script>
+</body>
+</html>

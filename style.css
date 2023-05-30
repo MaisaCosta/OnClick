@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.top {
+    background-color: silver;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav1 {
+    color: silver;
+    text-decoration: none;
+}
+
+input {
+    border-bottom: 3px solid black;
+    padding: 5px;
+    width: 300px;
+
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin: 80px;
+}
+
+.btn-2 {
+    height: 35px;
+    width: 100px;
+    background-color: yellow;
+    color: black;
+    border: 3px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+
+}
+
+.btn-3 {
+    height: 35px;
+    width: 100px;
+    background-color: yellow;
+    color: black;
+    border: 3px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+
+}
+
+.btn-4 {
+    height: 35px;
+    width: 150px;
+    background-color: green;
+    color: black;
+    border: 3px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+
+}
+
+.container {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 700px;
+}
+
+
+.col {
+    border: 3px solid black;
+    height: 100px;
+    padding: 50px;
+    width: 400px;
+    margin-top: 20px;
+
+}
+
+
+.col1 {
+    border: 3px solid black;
+    height: 100px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.colum3 {
+    border: 3px solid black;
+    height: 120px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 30px;
+
+}
+
+.escrito {
+    margin-left: 150px;
+
+}
+
+.escrito-1 {
+    margin-left: 150px;
+
+}
+
+span {
+    color: blue;
+    text-decoration: underline;
+}
+
+h3 {
+    font-style: italic;
+}
